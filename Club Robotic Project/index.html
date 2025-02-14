@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+      </style>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="widgets.css" />
+
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="item" onclick="showEditLayout()">
+      <div class="head">
+        <span class="start-time outfit-bold">00:00</span>
+        <label class="switch">
+          <input type="checkbox" checked />
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div class="desc">
+          <span class="details outfit-normal">Default Alarm · At 18 Feb</span><span class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-green-600/20 ring-inset">Tomorrow</span>
+      </div>
+      
+      <div class="edit-layout">
+        <label for="edit-time">Time:</label> <br>
+        <input type="time" id="edit-time" /><br>
+        <label for="edit-date">Date:</label><br>
+                <input type="date" id="edit-date" /><br>
+        <button type="submit" class="flex w-full justify-center rounded-md  px-3 py-1.5 text-sm/6 font-semibold text-white shadow-xs hover:[#40a02b] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-[#1e66f5]">Save </button>
+    </div>
+    <button class="fab" aria-label="Add"><i class="fa fa-plus" aria-hidden="true"></i></button>
+    
+  </body>
+</html>
