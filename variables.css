@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+    /* Colors */
+    --primary-color: #1e66f5;
+    --primary-hover: #0056b3;
+    --background-color: #e6e9ef;
+    --white: #ffffff;
+    --border-color: #ccd0da;
+    --text-muted: rgba(0, 0, 0, 0.8);
+    --shadow-color: #bcc0cc;
+  
+    /* Spacing */
+    --spacing-xs: 4px;
+    --spacing-sm: 7px;
+    --spacing-md: 14px;
+    --spacing-lg: 20px;
+    --spacing-xl: 36px;
+    --spacing-xxl: 40px;
+  
+    /* Border radius */
+    --radius-sm: 7px;
+    --radius-md: 14px;
+    --radius-lg: 50px;
+    --radius-full: 50%;
+  
+    /* Font sizes */
+    --text-xs: 16px
+    --text-sm: 16px
+    --text-lg: 24px;
+    --text-xl: 34px;
+  }
+  
